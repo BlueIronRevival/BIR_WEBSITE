@@ -15,9 +15,24 @@ export default function ContactPage() {
             <h2 className="mt-3 font-display text-4xl font-bold">Stay connected to the shop.</h2>
             <div className="accent-rule bg-bir-rust" />
             <div className="mt-8 space-y-6 text-white/75">
-              <div><p className="text-xs font-bold uppercase tracking-wider text-bir-cream">Email</p><p className="mt-1">hello@blueironrevival.com</p></div>
-              <div><p className="text-xs font-bold uppercase tracking-wider text-bir-cream">YouTube</p><p className="mt-1">Channel coming soon</p></div>
-              <div><p className="text-xs font-bold uppercase tracking-wider text-bir-cream">Facebook</p><p className="mt-1">Community page coming soon</p></div>
+              <div>
+                <p className="text-xs font-bold uppercase tracking-wider text-bir-cream">Email</p>
+                <a href="mailto:justin@blueironrevival.com" className="mt-1 inline-block hover:text-white">
+                  justin@blueironrevival.com
+                </a>
+              </div>
+              <div>
+                <p className="text-xs font-bold uppercase tracking-wider text-bir-cream">YouTube</p>
+                <a href="https://www.youtube.com/@BlueIronRevival" target="_blank" rel="noreferrer" className="mt-1 inline-block hover:text-white">
+                  @BlueIronRevival
+                </a>
+              </div>
+              <div>
+                <p className="text-xs font-bold uppercase tracking-wider text-bir-cream">Facebook</p>
+                <a href="https://www.facebook.com/@BlueIronRevival" target="_blank" rel="noreferrer" className="mt-1 inline-block hover:text-white">
+                  Blue Iron Revival
+                </a>
+              </div>
             </div>
           </div>
           <form className="bg-white p-8 shadow-card sm:p-10">

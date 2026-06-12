@@ -8,7 +8,6 @@ export const siteImages = {
   jubileeImage: "/images/collection-jubilee.jpg",
   workmasterImage: "/images/collection-workmaster.jpg",
   ford2000Image: "/images/collection-ford-2000.jpg",
-  ford120Image: "/images/collection-ford-120.jpg",
 } as const;
 
 export type SiteImageKey = keyof typeof siteImages;

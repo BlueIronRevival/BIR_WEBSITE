@@ -11,7 +11,7 @@ type TractorCardProps = {
 
 export function TractorCard({ name, years, description, image, detail }: TractorCardProps) {
   return (
-    <article className="group overflow-hidden bg-white shadow-card">
+    <article className="group h-full overflow-hidden bg-white shadow-card">
       <ImageWithFallback
         src={image}
         alt={`${name} tractor`}

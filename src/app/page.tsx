@@ -56,10 +56,17 @@ export default function Home() {
           <SectionHeading
             eyebrow="The Collection"
             title="A Century of Blue and Gray"
-            intro="Six machines trace the evolution from steel wheels to compact garden tractors."
+            intro="Five machines trace the evolution from steel wheels to the blue three-cylinder era."
           />
-          <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-3">
-            {tractors.map((tractor) => <TractorCard key={tractor.name} {...tractor} />)}
+          <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-6">
+            {tractors.map((tractor, index) => (
+              <div
+                key={tractor.name}
+                className={`lg:col-span-2 ${index === 3 ? "lg:col-start-2" : ""}`}
+              >
+                <TractorCard {...tractor} />
+              </div>
+            ))}
           </div>
         </div>
       </section>

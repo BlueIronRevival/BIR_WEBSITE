@@ -13,14 +13,14 @@ export const resources = [
   {
     title: "Serial Number Lookup",
     description: "Identify your Ford tractor by serial number and production range.",
-    href: "/resources/serial-number-lookup",
+    href: "https://blueironrevival-serial-tool.netlify.app/",
     icon: "SN",
     action: "Use the tool",
   },
   {
     title: "Model Decoder",
     description: "Decode model prefixes, production codes, and tractor details.",
-    href: "/resources/model-decoder",
+    href: "https://bir-model-decoder.netlify.app/",
     icon: "MD",
     action: "Decode a model",
   },
@@ -89,13 +89,6 @@ export const tractors = [
     description: "A durable new generation of blue Ford utility tractors.",
     image: siteImages.ford2000Image,
     detail: "New-generation Ford",
-  },
-  {
-    name: "Ford 120 Garden Tractor",
-    years: "1970s",
-    description: "Small-scale blue iron with the same practical Ford spirit.",
-    image: siteImages.ford120Image,
-    detail: "Garden-sized classic",
   },
 ];
 

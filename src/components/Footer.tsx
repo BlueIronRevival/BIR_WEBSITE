@@ -24,15 +24,31 @@ export function Footer() {
         </div>
         <div>
           <h2 className="mb-4 font-display text-xl font-bold">Follow Along</h2>
-          <p className="mb-2 text-sm text-white/75">YouTube: coming soon</p>
-          <p className="mb-2 text-sm text-white/75">Facebook: coming soon</p>
-          <p className="text-sm text-white/75">hello@blueironrevival.com</p>
+          <a
+            href="https://www.youtube.com/@BlueIronRevival"
+            target="_blank"
+            rel="noreferrer"
+            className="mb-2 block text-sm text-white/75 hover:text-white"
+          >
+            YouTube
+          </a>
+          <a
+            href="https://www.facebook.com/@BlueIronRevival"
+            target="_blank"
+            rel="noreferrer"
+            className="mb-2 block text-sm text-white/75 hover:text-white"
+          >
+            Facebook
+          </a>
+          <a href="mailto:justin@blueironrevival.com" className="text-sm text-white/75 hover:text-white">
+            justin@blueironrevival.com
+          </a>
         </div>
       </div>
       <div className="border-t border-white/15">
         <div className="site-container flex flex-col gap-2 py-6 text-xs text-white/55 sm:flex-row sm:justify-between">
           <p>&copy; 2026 Blue Iron Revival</p>
-          <p>Keeping Ford iron alive.</p>
+          <p>Preserving the Legacy of Ford Tractors</p>
         </div>
       </div>
     </footer>

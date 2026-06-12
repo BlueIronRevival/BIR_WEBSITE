@@ -5,14 +5,14 @@ import { Layout } from "@/components/Layout";
 
 export const metadata: Metadata = {
   title: {
-    default: "Blue Iron Revival | Keeping Ford Iron Alive",
+    default: "Blue Iron Revival | Preserving the Legacy of Ford Tractors",
     template: "%s | Blue Iron Revival",
   },
   description: "Restoration stories, decoding tools, and practical knowledge for Ford and Fordson tractor enthusiasts.",
   keywords: ["Ford tractors", "Fordson", "tractor restoration", "serial number lookup", "model decoder"],
   openGraph: {
     title: "Blue Iron Revival",
-    description: "Keeping Ford iron alive.",
+    description: "Preserving the Legacy of Ford Tractors",
     type: "website",
   },
 };

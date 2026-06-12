@@ -8,9 +8,9 @@ import { MobileNav } from "@/components/MobileNav";
 export function Header() {
   return (
     <header className="relative z-50 bg-bir-navy text-white">
-      <div className="site-container flex h-24 items-center justify-between gap-8">
+      <div className="site-container flex h-28 items-center justify-between gap-8">
         <Link href="/" className="flex items-center gap-3" aria-label="Blue Iron Revival home">
-          <span className="flex h-20 w-28 items-center overflow-hidden rounded-[50%] border-2 border-white/70 bg-white shadow-lg">
+          <span className="flex h-24 w-36 items-center overflow-hidden rounded-[50%] border-2 border-white/70 bg-white shadow-lg">
             <img src={siteImages.logo} alt="Blue Iron Revival" className="h-full w-full object-cover" />
           </span>
         </Link>

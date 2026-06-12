@@ -17,7 +17,7 @@ export function Hero() {
         <div className="max-w-4xl">
           <p className="eyebrow mb-5 text-bir-cream">Blue Iron Revival</p>
           <h1 className="max-w-3xl font-display text-6xl font-bold italic leading-[0.98] sm:text-7xl lg:text-8xl">
-            Keeping Ford Iron Alive
+            Preserving the Legacy of Ford Tractors
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-white/85 sm:text-xl">
             Restoration stories, serial number tools, model decoding, and practical knowledge for Ford and Fordson tractor enthusiasts.
