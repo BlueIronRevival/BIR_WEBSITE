@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bir-navy: #183649;
+  --bir-blue: #2868a8;
+  --bir-cream: #f5efe3;
+  --bir-rust: #a54c2d;
+  --bir-charcoal: #242a2d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bir-cream);
+  color: var(--bir-charcoal);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+::selection {
+  background: var(--bir-blue);
+  color: white;
+}
+
+@layer components {
+  .site-container {
+    @apply mx-auto w-full max-w-[1280px] px-6 sm:px-8;
+  }
+
+  .eyebrow {
+    @apply text-xs font-bold uppercase tracking-[0.24em];
+  }
+
+  .accent-rule {
+    @apply mt-6 h-1 w-20;
+  }
+
+  .button {
+    @apply inline-flex min-h-12 items-center justify-center px-7 py-3 text-center text-xs font-bold uppercase tracking-[0.08em];
+  }
+
+  .button-dark {
+    @apply bg-bir-navy text-white hover:bg-bir-blue;
+  }
+
+  .button-cream {
+    @apply bg-bir-cream text-bir-charcoal hover:bg-white;
+  }
+
+  .button-outline {
+    @apply border border-white/70 text-white hover:bg-white hover:text-bir-navy;
+  }
+
+  .nav-link {
+    @apply border-b-2 border-transparent py-2 text-sm font-bold text-white/80 hover:border-bir-cream hover:text-white;
+  }
+}
+
+.paper-texture {
+  background-color: var(--bir-cream);
+  background-image:
+    linear-gradient(rgba(255,255,255,.38), rgba(255,255,255,.38)),
+    repeating-linear-gradient(90deg, transparent 0, transparent 3px, rgba(24,54,73,.015) 4px);
+}
+
+.workshop-texture {
+  background-image:
+    linear-gradient(135deg, rgba(40,104,168,.18), transparent 45%),
+    repeating-linear-gradient(115deg, transparent 0, transparent 24px, rgba(255,255,255,.018) 25px);
+}
+
+.image-fallback {
+  position: relative;
+  overflow: hidden;
+  background: #33434b;
+}
+
+.fallback-art {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 65% 35%, rgba(255,255,255,.12), transparent 18%),
+    linear-gradient(145deg, #54616a 0%, #263b48 50%, #142630 100%);
+}
+
+.fallback-art::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20%;
+  height: 2px;
+  background: rgba(245,239,227,.35);
+}
+
+.fallback-body {
+  position: absolute;
+  left: 26%;
+  bottom: 27%;
+  width: 38%;
+  height: 18%;
+  border: 3px solid rgba(245,239,227,.6);
+  border-radius: 8px 28px 5px 5px;
+}
+
+.fallback-body::before {
+  content: "";
+  position: absolute;
+  right: 12%;
+  bottom: 100%;
+  width: 5px;
+  height: 70px;
+  background: rgba(245,239,227,.55);
+}
+
+.fallback-wheel {
+  position: absolute;
+  bottom: 15%;
+  border: 4px solid rgba(245,239,227,.65);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 5px rgba(24,54,73,.8);
+}
+
+.fallback-wheel-small {
+  left: 23%;
+  width: 13%;
+  aspect-ratio: 1;
+}
+
+.fallback-wheel-large {
+  left: 57%;
+  width: 22%;
+  aspect-ratio: 1;
+}
+
+.fallback-label {
+  position: absolute;
+  left: 5%;
+  top: 7%;
+  color: rgba(245,239,227,.82);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(.75rem, 1.3vw, 1rem);
+  font-weight: bold;
+  letter-spacing: .18em;
+}
