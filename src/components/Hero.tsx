@@ -15,7 +15,6 @@ export function Hero() {
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-bir-navy/65 to-black/30" />
       <div className="site-container py-24 text-white">
         <div className="max-w-4xl">
-          <p className="eyebrow mb-5 text-bir-cream">Blue Iron Revival</p>
           <h1 className="max-w-3xl font-display text-6xl font-bold italic leading-[0.98] sm:text-7xl lg:text-8xl">
             Preserving the Legacy of Ford Tractors
           </h1>
