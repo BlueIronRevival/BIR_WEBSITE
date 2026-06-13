@@ -19,7 +19,7 @@ export function Hero() {
             Preserving the Legacy of Ford Tractors
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-white/85 sm:text-xl">
-            Restoration stories, serial number tools, model decoding, and practical knowledge for Ford and Fordson tractor enthusiasts.
+            From the Fordson F to the Thousand Series, Blue Iron Revival preserves the legacy of Ford tractors through restoration stories, practical resources, and the knowledge that keeps old iron running.
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Link href="/resources" className="button button-cream">Explore Resources</Link>
