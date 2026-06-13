@@ -22,9 +22,6 @@ export default function Home() {
             </h2>
             <div className="accent-rule bg-bir-blue" />
             <p className="mt-7 text-lg leading-8 text-bir-charcoal/75">
-              From the Fordson F to the Thousand Series, Blue Iron Revival preserves the legacy of Ford tractors through restoration stories, practical resources, and the knowledge that keeps old iron running.
-            </p>
-            <p className="mt-5 leading-8 text-bir-charcoal/70">
               Blue Iron Revival follows the restoration, maintenance, and enjoyment of Ford tractors across generations. Through practical resources, restoration stories, and lessons learned in the shop, we aim to help fellow enthusiasts keep old iron running for years to come.
             </p>
             <Link href="/about" className="button button-dark mt-8">Meet Blue Iron Revival</Link>
