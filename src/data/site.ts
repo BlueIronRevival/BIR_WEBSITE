@@ -27,7 +27,7 @@ export const resources = [
   {
     title: "Fordson F Notes",
     description: "Specifications, history, and working notes for the tractor that started it all.",
-    href: "/resources",
+    href: "/resources/fordson-f-notes",
     icon: "FF",
     action: "Browse notes",
   },
