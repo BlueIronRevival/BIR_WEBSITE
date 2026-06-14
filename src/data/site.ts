@@ -32,6 +32,13 @@ export const resources = [
     action: "Browse notes",
   },
   {
+    title: "Fordson Dating Tool",
+    description: "Date a Model F or Model N by factory location and serial number.",
+    href: "/resources/fordson-dating-tool",
+    icon: "FD",
+    action: "Date a Fordson",
+  },
+  {
     title: "Carburetor Identification",
     description: "Recognize common Marvel-Schebler and Zenith carburetors.",
     href: "/resources",

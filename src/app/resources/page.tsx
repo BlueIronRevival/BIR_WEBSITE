@@ -4,7 +4,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { resources } from "@/data/site";
 
 const resourceItems = [
-  ...resources.slice(0, 4),
+  ...resources.slice(0, 5),
   {
     title: "Fluid and Spec Charts",
     description: "Quick-reference capacities, fluid guidance, tune-up numbers, and common specifications.",
