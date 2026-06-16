@@ -13,14 +13,14 @@ export const resources = [
   {
     title: "Serial Number Lookup",
     description: "Identify your Ford tractor by serial number and production range.",
-    href: "https://blueironrevival-serial-tool.netlify.app/",
+    href: "/resources/serial-number-lookup",
     icon: "SN",
     action: "Use the tool",
   },
   {
     title: "Model Decoder",
     description: "Decode model prefixes, production codes, and tractor details.",
-    href: "https://bir-model-decoder.netlify.app/",
+    href: "/resources/model-decoder",
     icon: "MD",
     action: "Decode a model",
   },
